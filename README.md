@@ -14,15 +14,15 @@ To implement the RSA encryption algorithm in C++.
 
 <br>
 
-Step 1: Key Generation: Choose two prime numbers p and q. Compute n = p * q. Compute Euler's Totient Function φ(n) = (p-1)(q-1). Choose an integer e such that 1 < e < φ(n) and gcd(e, φ(n)) = 1. Compute d such that d * e ≡ 1 (mod φ(n)).
+Step 1: Key Generation: Choose two prime numbers `p` and `q`. Compute `n = p * q`. Compute Euler's Totient Function `φ(n) = (p-1)(q-1)`. Choose an integer e such that `1 < e < φ(n)` and `gcd(e, φ(n)) = 1`. Compute d such that `d * e ≡ 1 (mod φ(n))`.
 
 <br>
 
-Step 2: Encryption: ciphertext = (plaintext^e) mod n.
+Step 2: Encryption: `ciphertext = (plaintext^e) mod n`.
 
 <br>
 
-Step 3: Decryption: plaintext = (ciphertext^d) mod n.
+Step 3: Decryption: `plaintext = (ciphertext^d) mod n`.
 
 <br>
 
