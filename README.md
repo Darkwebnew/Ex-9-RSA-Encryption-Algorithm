@@ -14,7 +14,7 @@ To implement the RSA encryption algorithm in C++.
 
 <br>
 
-## DESIGN STEPS:
+## ALGORITHM:
 
 <br>
 
@@ -30,7 +30,7 @@ Step 3: Decryption: `plaintext = (ciphertext^d) mod n`.
 
 <br>
 
-## Program:
+## PROGRAM:
 
 <br>
 
