@@ -1,14 +1,34 @@
-# Ex-9-RSA-Encryption-Algorithm
+# Ex-9 RSA ENCRYPTION ALGORITHM
 
-## Aim:
+## DATE:
+
+## AIM:
+
+<br>
+
 To implement the RSA encryption algorithm in C++.
 
-## Algorithm:
-1. Key Generation: Choose two prime numbers p and q. Compute n = p * q. Compute Euler's Totient Function φ(n) = (p-1)(q-1). Choose an integer e such that 1 < e < φ(n) and gcd(e, φ(n)) = 1. Compute d such that d * e ≡ 1 (mod φ(n)).
-2. Encryption: ciphertext = (plaintext^e) mod n.
-3. Decryption: plaintext = (ciphertext^d) mod n.
+<br>
+
+## DESIGN STEPS:
+
+<br>
+
+Step 1: Key Generation: Choose two prime numbers p and q. Compute n = p * q. Compute Euler's Totient Function φ(n) = (p-1)(q-1). Choose an integer e such that 1 < e < φ(n) and gcd(e, φ(n)) = 1. Compute d such that d * e ≡ 1 (mod φ(n)).
+
+<br>
+
+Step 2: Encryption: ciphertext = (plaintext^e) mod n.
+
+<br>
+
+Step 3: Decryption: plaintext = (ciphertext^d) mod n.
+
+<br>
 
 ## Program:
+
+<br>
 
 ```
 #include <iostream>
@@ -83,10 +103,18 @@ int main() {
 }
 ```
 
-## Output:
+<br>
+
+## OUTPUT:
+
+<br>
 
 ![Screenshot 2024-10-14 114259](https://github.com/user-attachments/assets/f88b5e59-43e6-41da-9fc7-04abb9e34608)
 
-## Result:
+<br>
+
+## RESULT:
+
+<br>
 
 The RSA encryption and decryption algorithm has been successfully implemented.
